@@ -28,3 +28,5 @@ chatbot/
 - ├── style.css    # Estilo do chatbot
 - ├── main.js    # Lógica do chatbot
 - └── README.md    # Documentação
+
+## Aviso a APIKey utilizada foi removida do código open por motivos de segurança.
