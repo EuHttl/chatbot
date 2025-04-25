@@ -69,6 +69,7 @@ input{
     padding: 10px;
 
     & i{
+        font-size: 20px;
         color: var(--dark);
     }
 }
@@ -132,16 +133,20 @@ input{
     }
     .header{
         font-family: fantasy;
-        padding: 1rem;
         font-size: 1.2rem;
     }
     input{
+        margin-bottom: 10px;
         width: 80%;
         font-size: 0.8rem;
     }
     #btn-submit{
         padding: 5px;
         font-size: 0.8rem;
+
+        & i {
+            font-size: 20px;
+        }
     }
     #historic{
         height: 100%;
