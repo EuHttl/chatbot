@@ -1,0 +1,122 @@
+:root {
+    --dark: #000;
+    --white: #fff;
+    --gold:  #FFD700;
+    --goldM: #d1c481;
+    --gray: #636363;
+    --prata: #A9A9A9
+}
+
+body{
+    background-color: var(--gray);
+    color: var(--gray);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.box-question{
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 3.5);
+    overflow: hidden;
+    background-color: var(--white);
+    margin-top: 3rem;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 800px;
+    text-align: center;
+}
+
+.header{
+    background-color: var(--gray);
+    border-radius: 10px 10px 0 0;
+    color: var(--goldM);
+    font-size: 1.4rem;
+    font-family: fantasy
+}
+
+.footer{
+    background-color: var(--gray);
+    padding: 1rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+input{
+    color: var(--dark);
+    width: 50%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#status{
+    /* z-index: -1; */
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+#btn-submit{
+    background-color: var(--white);
+    border-radius: 25px;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+
+    & i{
+        color: var(--dark);
+    }
+}
+
+#btn-submit:hover{
+    background-color: var(--goldM);
+    color: var(--white);
+    cursor: pointer;
+    transition: .4s;
+}
+
+#historic{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 10, 0)), url('/assets/image/furia_logo.jpg');
+    background-size: cover;
+    background-position: center;
+    /* z-index: -1; */
+    padding: 1rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.box-my-message{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-response-message{
+    display: flex;
+    justify-content: flex-start;
+}
+.my-message{
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 0;
+    color: var(--white);
+    text-align: right;
+    background-color: var(--gray);
+}
+.chatbot-message{
+    font-weight: bold;
+    color: var(--white);
+    border-radius: 30px;
+    margin: 0;
+    padding: 1rem;
+    background-color: transparent;
+    text-align: left;
+}
+
