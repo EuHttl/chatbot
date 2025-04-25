@@ -1,4 +1,5 @@
 const apiKey = "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";
+
 document.getElementById("message").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault(); 
@@ -26,7 +27,7 @@ async function sendMessage(){
     const response = fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": `Bearer ${apiKey}`,
+          Authorization: `Bearer ${apiKey}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
