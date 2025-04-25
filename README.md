@@ -24,7 +24,7 @@ Este é um chatbot da Furia FC criado utilizando **HTML**, **JavaScript** e **CS
 ## Estrutura do Projeto
 
 chatbot/
-├── index.html   # Arquivo principal
-├── style.css    # Estilo do chatbot
-├── main.js    # Lógica do chatbot
-└── README.md    # Documentação
+- ├── index.html   # Arquivo principal
+- ├── style.css    # Estilo do chatbot
+- ├── main.js    # Lógica do chatbot
+- └── README.md    # Documentação
