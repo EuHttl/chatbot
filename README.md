@@ -29,4 +29,4 @@ chatbot/
 - ├── main.js    # Lógica do chatbot
 - └── README.md    # Documentação
 
-## Aviso a APIKey utilizada foi removida do código open por motivos de segurança.
+## Aviso a APIKey utilizada foi desativada do código por motivos de segurança.
