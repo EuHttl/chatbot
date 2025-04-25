@@ -1,4 +1,4 @@
-const apiKey = "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";
+const apiKey = process.env.apiKey;
 document.getElementById("message").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault(); 
@@ -90,7 +90,6 @@ async function sendMessage(){
         let answer = response.choices[0].message.content;
         status.style.display = "none";
         showHistoric(message.value,answer);
-        // status.innerHTML = answer;
     })
     .catch((e) => {
         console.log(`Error -> ${e}`);
