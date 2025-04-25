@@ -1,4 +1,4 @@
-const apiKey = "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";
+const apiKey = "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";
 
 document.getElementById("message").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
@@ -31,7 +31,7 @@ async function sendMessage(){
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "gpt-4",
+          model: "gpt-3.5-turbo",
           messages: [
             {
               role: "system",
