@@ -120,3 +120,38 @@ input{
     text-align: left;
 }
 
+@media (max-width: 500px) {
+    body{
+        height: 100vh;
+    }
+    .box-question{
+        width: 400px;
+        height: 656px;
+        margin-top: 0;
+    }
+    .header{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    input{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    #btn-submit{
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    #historic{
+        height: 100%;
+    }
+    .my-message{
+        font-size: 0.8rem;
+    }
+    .chatbot-message{
+        font-size: 0.8rem;
+    }
+    .footer{
+        padding: 0.5rem;
+    }
+
+}
